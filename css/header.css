@@ -2,11 +2,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
-    background-color: #f8f9fa;
+    padding: 1em 2em;
+    background-color: #343a40;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.header nav ul {
+.logo img {
+    height: 40px;
+}
+
+.nav_links {
     display: flex;
-    gap: 1em;
+    gap: 2em;
+}
+
+.nav_links a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav_links a:hover {
+    color: #ffd700;
 }

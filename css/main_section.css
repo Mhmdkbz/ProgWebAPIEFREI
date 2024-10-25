@@ -5,10 +5,38 @@
     background-image: url('../assets/mountains.webp');
     background-position: center;
     background-size: cover;
-    min-height: 50vh;
+    min-height: 100vh;
+    color: #ffffff;
+    padding-top: 80px;
 }
 
-.main_section h1 {
-    font-size: 3em;
-    color: #ffffff;
+.content_wrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.content_wrapper h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.content_wrapper p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #000;
+    padding: 0.75em 1.5em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
 }

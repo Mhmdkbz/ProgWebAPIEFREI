@@ -8,7 +8,10 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    padding-top: 60px;
 }
 
 ul, li {
@@ -20,6 +23,11 @@ a {
     color: inherit;
 }
 
-a:hover {
-    color: red;
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: auto;
+    position: relative;
 }
