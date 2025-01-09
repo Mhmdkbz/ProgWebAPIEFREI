@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="./assets/icon.webp" alt="site icon">
+            </a>
+            <ul class="nav_links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_section">
+        <div class="content_wrapper">
+            <h1>Forum</h1>
+            <p>Partagez vos idées, posez vos questions et discutez avec la communauté&nbsp;!</p>
+
+            <section class="create_post">
+                <h2>Créer un nouveau post</h2>
+                <form>
+                    <label for="postTitle">Titre du post</label><br>
+                    <input type="text" id="postTitle" name="postTitle" placeholder="Entrez le titre"><br><br>
+
+                    <label for="postContent">Contenu</label><br>
+                    <textarea id="postContent" name="postContent" rows="5" placeholder="Rédigez votre message..."></textarea><br><br>
+
+                    <button type="submit" class="btn">Publier</button>
+                </form>
+            </section>
+
+            <section class="posts_list">
+                <h2>Posts récents</h2>
+
+                <article class="post">
+                    <h3 class="post_title">Mon premier post</h3>
+                    <p class="post_content">Ceci est un exemple de contenu pour un post.</p>
+                    <div class="comments_section">
+                        <h4>Commentaires</h4>
+                        <ul>
+                            <li><strong>Paul</strong>: Super post, merci pour le partage&nbsp;!</li>
+                            <li><strong>Julie</strong>: Très intéressant, j’ai hâte de lire la suite.</li>
+                        </ul>
+                        <form>
+                            <label for="commentContent">Ajouter un commentaire</label><br>
+                            <textarea id="commentContent" name="commentContent" rows="3" placeholder="Votre commentaire..."></textarea><br><br>
+                            <button type="submit" class="btn">Commenter</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mon Cool Site. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

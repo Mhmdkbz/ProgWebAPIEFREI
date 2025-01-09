@@ -31,3 +31,78 @@ a {
     margin-top: auto;
     position: relative;
 }
+
+/* Dans style.css, par exemple après le @import de header.css et main_section.css */
+
+/* Formulaire de création de post */
+.create_post form {
+    margin-bottom: 2em;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 2em;
+}
+
+.create_post label {
+    font-weight: bold;
+}
+
+.create_post input[type="text"],
+.create_post textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Liste des posts */
+.posts_list {
+    margin-top: 2em;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: rgba(0,0,0,0.6);
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+}
+
+.post_title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.post_content {
+    margin-bottom: 1em;
+}
+
+/* Commentaires */
+.comments_section {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+.comments_section h4 {
+    margin-bottom: 0.5em;
+}
+
+.comments_section ul {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.comments_section li {
+    margin-bottom: 0.5em;
+}
+
+.comments_section form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
